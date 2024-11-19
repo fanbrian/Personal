@@ -13,7 +13,7 @@ from pymongo import MongoClient
 from dateutil import parser
 
 
-connection_string = "mongodb+srv://bfan:Infiniteswag808!@tlcluster.jf40bf4.mongodb.net/?retryWrites=true&w=majority"
+connection_string = "mongodb+srv://bfan:PASSWORD@tlcluster.jf40bf4.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(connection_string,
                      tls=True,
                      tlsCertificateKeyFile='/Applications/Python 3.11/X509-cert-6425077195416651859.pem')
