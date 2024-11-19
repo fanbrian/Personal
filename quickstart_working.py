@@ -90,7 +90,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-"""Next-add logic so it doesnt add events that already exist in mongoDB, 
-choose an AWS architecture and deploy so you have a simple UI to link your GCal to the system's DB (Dynamo or RDS). 
-You could then use the Salesforce Dev account to build something that writes to an SFDC object via API as a proof of concept.
-It can be event driven as anytime changes are detected in GCal can trigger the sync"""
+
